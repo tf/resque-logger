@@ -17,7 +17,7 @@ Configuration
       class_name: Logger,                   # logger class name
       class_args: [ 'daily', 1.kilobyte ],  # logger additional parameters
       level:      Logger::INFO,             # optional
-      formatter:  Logger::Formatter.new,    # optional
+      formatter:  Logger::Formatter.new     # optional
     }
 
     Resque.logger = config
